@@ -8,7 +8,6 @@
     <script
       defer
       data-domain="{{ . }}"
-      data-api="{{ default "https://plausible.io/api/event" site.Params.plausibleAnalytics.event }}"
       src="{{ default "https://plausible.io/js/script.js" site.Params.plausibleAnalytics.script }}"
     ></script>
   {{ end }}
